@@ -6,7 +6,7 @@ Bu uygulama ile öğrencilerin Türkçe dil bilgileri pekiştirilmek istenmişti
 Yazılım Sınama Dönem Projesi(2019-2020)
 
 ## Projenin İçeriği
-   Bu proje, Microsoft Visual Studio ortamında verilen gereksinimler temel alınarak MVC çatısı altında .NET C# ile yaklaşık 5 haftada      hazırlanmıştır. Proje kapsamında 6 farklı controller, 8 farklı sınıf ve verilerin tutulması için entity framework ile MSSQL veri        tabanında 5 farklı tablo kullanılmıştır. Tasarımın hazırlanmasında Boostrapt kütüphanesinden ve bildirim panelindende Toastr            kütüphanesinden yararlanılmıştır.   
+   Bu proje, Microsoft Visual Studio ortamında verilen gereksinimler temel alınarak MVC çatısı altında .NET C# ile yaklaşık 5 haftada      hazırlanmıştır. Proje kapsamında 6 farklı controller, 8 farklı sınıf ve verilerin tutulması için entity framework ile MSSQL veri tabanında 7 farklı tablo kullanılmıştır. Tasarımın hazırlanmasında Boostrapt kütüphanesinden yararlanılmıştır.   
 
 ## Resimler
 <h3>Giriş Ekranı</h3>
