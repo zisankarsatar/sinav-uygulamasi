@@ -1,62 +1,24 @@
-# sinav-uygulamasi
 <b>Quiz App</b>:<br>
 
 ## Purpose
 Bu uygulama ile öğrencilerin bilgileri pekiştirilmek istenmiştir.
 
-# Table of Contents
+## Images
 
-* [Features](#features)
-* [Prerequisites](#prerequisites)
-* [Installation](#installation)
-* [Found a Bug? Want to Contribute?](#found-a-bug-want-to-contribute)
-* [Test](#test)
-* [Production](#production)
-
-## Features
-
-* Tehlikeli label'ları manuel olarak database'e kaydetmek yerine bir machine learning servisi yazarak bu label' ları otomatik olarak elde edebiliriz.
-
-* Bilir kişi raporunu otomatize hale getirebiliriz.
-
+<lo>
+  <li>![girisEkrani](https://user-images.githubusercontent.com/48350459/71643483-512b5900-2ccb-11ea-88f6-d98803f52c5b.png)</li>
+  <li>![ogrenciEkranı](https://user-images.githubusercontent.com/48350459/71643501-aebfa580-2ccb-11ea-88ee-4b79d3ed4b00.png)</li>
+  <li>![ogretmenEkranı](https://user-images.githubusercontent.com/48350459/71643522-f5150480-2ccb-11ea-8401-666ea921a392.png)</li>
+  <li>![sınavEkranı](https://user-images.githubusercontent.com/48350459/71643591-a451db80-2ccc-11ea-91a1-34c97f827116.png)</li>
+  <li>![soruListelemeEkranı](https://user-images.githubusercontent.com/48350459/71643595-addb4380-2ccc-11ea-9254-16dd86397da9.png)</li>
+  <li>![grafikEkranı](https://user-images.githubusercontent.com/48350459/71643611-eb3fd100-2ccc-11ea-8b89-6f6065010f1d.png)</li>
+  
+</lo>  
 
 ## Prerequisites
 
-* Net Core 2.2
-* NodeJS >= 10.x
-
-* VSCode (ideally), or VS2017
-
-## Installation
-
-* Postgres kurulumunda parola olarak <b>1234567890</b>  eğer farklı bir şifre kullanmak isterseniz gerekli değişikliği Startup.cs dosyasında yapmanız lazım. 
-<p align="center" >
-  <img src="img/startup.png">
-</p>
-
-* Terminalde CitySecuritySmart.Web içerisindeyken <b>npm install</b> yazılıp çalıştırılması lazım.
-
-*  CitySecuritySmart.Web içerisinde API' yi bağlamak için cloud shell içinde gerekli json dosyasının yolunun verilmesi lazım.
-*  Postgres veritabanında <b>citysecuritysmart</b> adlı veritabanı oluşturulmalı farklı bir ad kullanılırsa yine kullandığınız ismi Startup.cs dosyasında değiştirmeniz lazım.
-
-*  Terminal ekranında CitySecuritySmart.Entity dosya yolundayken <b>dotnet ef database update --startup-project ../CitySecuritySmart.Web/CitySecuritySmart.Web.cs</b> yazılmalı. Çıktı olarak postgres' de <b>citysecuritysmart</b> adlı veritabanın içerisinde tabloları oluşturması lazım. 
-<p align="center" >
-  <img src="img/Entity.png">
-</p>
-
-* Google cloud shell içerisindeyken CitySecuritySmart.Web dosya yoluna gidip <b>npm run dev</b> ile proje çalıştırılmalı. 
-* Proje http://localhost:5000/ çalışır. Giriş yapma ekranı karşınıza gelirse ilk önce kayıt olmanız lazım, email ve şifrenizi girerek kayıt olabilirsiniz. 
-
-* New Monitoring sayfasında input alanına <b>deneme.mp4</b> yazıp <b>save</b> butonuna basıp test edebilirsiniz. Bu sırada biraz beklememiz gerekebilir endişelenmeyin. Eğer <b>deneme.mp4</b> yazıp <b>save</b> butonuna tıkladığımızda biraz bekledikten sonra sağ üst köşede böyle bir video yok hatası alırsanız API' yi bağlarken hata yapmışsınızdır. Cloud Shell üzerinde json dosyasının yolu tekrardan verilmeli ve tekrardan test edilmeli. Video Intelligence API documentation'a
-bu [linkten](https://cloud.google.com/video-intelligence/docs/quickstart) erişebilirsiniz. 
-
-## Found a Bug? Want to Contribute?
-
-* Kendi isminizde bir branch oluşturup bütün yaptığınız değişiklikleri oraya push etmeniz gerekir.
-* GitHub Issues kısmında yapılması gerekenleri kabaca yazdım oraya bakıp gerekli desteği sağlayabilirsiniz.
-* Eğer projede eksik gördüğünüz başka yer varsa GitHub Issues kısmına ekleyebilirsiniz.
-
-* Bir bug ile karşılaşırsanız yine GitHub Issues kısmına ekleyebilirsiniz.
+* ASP.NET MVC
+* MSSQL
 
 ## Test
 
