@@ -15,7 +15,7 @@ Yazılım Sınama Dönem Projesi(2019-2020)
 <h3>Öğretmen Ekranı</h3> <br>
 ![ogretmenEkranı](https://user-images.githubusercontent.com/48350459/71643522-f5150480-2ccb-11ea-8401-666ea921a392.png)
 
-<h3>Sour Listleme Ekranı</h3> <br>
+<h3>Soru Listleme Ekranı</h3> <br>
 ![soruListelemeEkranı](https://user-images.githubusercontent.com/48350459/71643595-addb4380-2ccc-11ea-9254-16dd86397da9.png)
 
 <h3>Öğrenci Ekranı</h3> <br>
